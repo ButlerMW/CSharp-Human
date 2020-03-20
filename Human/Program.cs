@@ -36,7 +36,7 @@ namespace Human
         // Now add a method called Attack, which when invoked, should reduce the health of a Human object that is passed as a parameter. The damage done should be 5 * strength. This method should return the remaining health of the target object.
         public int Attack(Human target)
         {
-            int Damage = 5 * Strength
+            int Damage = 5 * Strength;
             target.Health -= Damage;
             Console.WriteLine($"{target.Name} loses {Damage} Health!");
             Console.WriteLine($"{target.Name} has {target.Health} Health left!");
