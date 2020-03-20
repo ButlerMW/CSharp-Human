@@ -50,7 +50,7 @@ namespace Human
             Console.WriteLine("Fight");
             Human Daryl = new Human("Daryl");
             Human Gram = new Human("Gram");
-            Gran.Attack(Daryl);
+            Gram.Attack(Daryl);
         }
     }
 }
